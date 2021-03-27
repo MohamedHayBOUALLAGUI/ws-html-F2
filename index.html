@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workshop HTML</title>
+    <link rel="shortcut icon" href="./res/html.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!--This is our header section-->
+    <header>
+      <h1>Portfolio</h1>
+      <nav>
+        <ul>
+          <a href="#home"><li>Home</li></a>
+          <a href="#about"><li>About me</li></a>
+          <li>Resume</li>
+          <li>Work</li>
+          <a href="#contact"> <li>Contact</li></a>
+        </ul>
+      </nav>
+      <button>Sign in</button>
+      <button>Sign up</button>
+    </header>
+    <!--This is our main section-->
+    <main>
+      <!--This is our home section-->
+      <section id="home">
+        <!--This is the heading section-->
+        <h2>Home</h2>
+        <table>
+          <tr>
+            <td>
+              <img
+                src="./res/createopportunity.jpg"
+                alt="opportunity_motivation"
+                width="500"
+                height="300"
+              />
+            </td>
+            <td>
+              <img
+                src="./res/Greatthings.jpg"
+                alt="Greatthings_motivation"
+                width="500"
+                height="300"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><p>&quot;Don’t wait for opportunity. Create it.&quot;</p></td>
+            <td>"Great things never come from comfort zones."</td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="./res/createopportunity.jpg"
+                alt="opportunity_motivation"
+                width="500"
+                height="300"
+              />
+            </td>
+            <td>
+              <img
+                src="./res/Greatthings.jpg"
+                alt="Greatthings_motivation"
+                width="500"
+                height="300"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><p>&quot;Don’t wait for opportunity. Create it.&quot;</p></td>
+            <td>"Great things never come from comfort zones."</td>
+          </tr>
+          <tr>
+            <td>
+              <iframe
+                width="500"
+                height="350"
+                src="https://www.youtube.com/embed/ZDIVHvIVWjM"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </td>
+          </tr>
+        </table>
+      </section>
+      <!--This is our about section-->
+      <section id="about">
+        <h2>About me</h2>
+        <div>
+          <h3>Hey I am foulen ben Falten</h3>
+          <img src="./res/avatar.jpg" alt="myAvatar" height="400" />
+          <p>
+            I am a mechanical engineer. I made a decision to give a new
+            direction to my professional career into
+            <strong>web development</strong>
+          </p>
+        </div>
+        <audio src="./res/victory.mp3" controls></audio>
+      </section>
+      <!--This is our contact section-->
+      <section id="contact">
+        <h2>Contact</h2>
+        <form>
+          <table>
+            <tr>
+              <td><label>Name:</label></td>
+              <td>
+                <input type="text" placeholder="please enter your name" />
+              </td>
+            </tr>
+            <tr>
+              <td><label>Email:</label></td>
+              <td>
+                <input type="email" placeholder="example@example.com" />
+              </td>
+            </tr>
+            <tr>
+              <td><label>Password:</label></td>
+              <td>
+                <input
+                  type="password"
+                  placeholder="********"
+                  minlength="8"
+                  maxlength="15"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label>Gender:</label>
+              </td>
+              <td>
+                <div>
+                  <input type="radio" id="female" name="gender" />
+                  <label for="female">Female</label>
+                </div>
+
+                <div>
+                  <input type="radio" id="male" name="gender" checked />
+                  <label for="male">Male</label>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </section>
+    </main>
+    <!--This is our footer section-->
+    <footer>
+      <h3>Join us</h3>
+      <a href="https://www.facebook.com/" target="_blank" title="facebook"
+        >Facebook contact</a
+      >
+      <a href="https://www.instagram.com/?hl=fr" target="_blank">
+        <img src="./res/instagram-1.jpg" alt="instagramLogo" width="50" />
+      </a>
+      <p>All rights reserved 2021 &copy;</p>
+    </footer>
+  </body>
+</html>
